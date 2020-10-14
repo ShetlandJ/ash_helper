@@ -36,5 +36,5 @@ timeRanges.forEach(range => {
 // Sort your array on the UTC value so that you get the earliest one first
 startTimes.sort();
 
-// startTimes[0] is now the earlier interval.
+// startTimes[0] is now the earliest interval.
 console.log(startTimes, startTimes[0]);
